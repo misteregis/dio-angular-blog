@@ -12,6 +12,7 @@
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
+  max-height: 112.5px;
 }
 
 .small-card__title {
