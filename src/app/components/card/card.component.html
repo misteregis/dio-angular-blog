@@ -1,0 +1,17 @@
+<a [routerLink]="['content', article.id]">
+  <div class="container__card border">
+    <div class="container__card-content">
+      <div class="card__photo">
+        <img height="113" src="{{ article.photo }}" alt="" srcset="" />
+      </div>
+
+      <div class="card__title">
+        <h1>{{ article.title }}</h1>
+      </div>
+    </div>
+
+    <div class="card__description">
+      <p [innerHTML]="article.description"></p>
+    </div>
+  </div>
+</a>

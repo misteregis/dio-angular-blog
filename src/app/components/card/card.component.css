@@ -1,0 +1,64 @@
+.container__card {
+  margin-bottom: 15px;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.container__card img {
+  transition: filter 0.3s ease-in-out;
+}
+
+.container__card a,
+.container__card b,
+.container__card h1,
+.container__card .card__description {
+  transition: color 0.15s ease-in-out;
+}
+
+.container__card:hover {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.container__card:hover img {
+  filter: grayscale(1);
+}
+
+.container__card:hover a,
+.container__card:hover b,
+.container__card:hover h1,
+.container__card:hover .card__description {
+  color: #000;
+}
+
+.container__card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.card__photo > img {
+  width: 200px;
+  height: 113px;
+  object-fit: cover;
+  object-position: top;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  display: inherit;
+}
+
+.card__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.card__title > h1 {
+  color: white;
+}
+
+.card__description {
+  display: none;
+  padding: 10px;
+  color: white;
+}

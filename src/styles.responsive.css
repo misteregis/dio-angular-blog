@@ -1,0 +1,17 @@
+@media screen and (max-width: 1160px) {
+  .grid-container {
+    grid-template-columns: 700px;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    margin: 0 20px 20px;
+  }
+
+  .container__card > .container__card-content > .card__title > h1 {
+    font-size: 4vw;
+  }
+}
